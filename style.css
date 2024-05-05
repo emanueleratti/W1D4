@@ -1,0 +1,48 @@
+/* GENERAL */
+* {box-sizing: border-box; margin:0px; padding: 0px;}
+body {font-family: Arial, Helvetica, sans-serif;}
+.white {color: white!important;}
+
+
+/* HEADER */
+#logo {background: #222f3e; padding: 10px 20px;}
+nav {display: flex; gap:10px; background:#364759; padding:0 20px;}
+nav a {padding:10px; color: white; text-decoration: none;}
+
+/* MAIN */
+main  {background-color: #f0f0f0; padding: 20px; display: flex; flex-direction: column; gap: 20px;}
+#one {display: flex; gap: 20px; flex-direction: column;}
+.shop-gift {display: flex; justify-content: center; background: #f56600; padding: 5px;}
+.box-gift {background-image: url(assets/bg-image.png); background-size: cover; background-repeat:no-repeat; height: 100px; display: flex; justify-content: center; align-items: flex-end;}
+#two {padding: 20px; display: flex; flex-direction: column; gap: 20px; background-color: white;}
+.card-img {display: flex; gap: 40px; justify-content: center; flex-wrap: wrap;}
+.card-img > div {height: 400px; min-width: 300px; width: 300px; border-radius: 20px; overflow: hidden; box-shadow: 0px 0px 15px 5px #222f3e40; justify-content: center;
+    display: flex;}
+.card-img > div > img {height: 100%;}
+.title a {text-decoration: none; color: grey; margin-left: 10px;}
+#three {display: flex; gap: 30px; margin: 20px 0;}
+#three .box-img {display: flex; flex-direction: column; padding: 20px; gap: 30px; background-color: white;}
+#three .box-img .content {display: flex; flex-wrap: wrap; gap: 5px;} 
+#three img {min-width: 200px; width: 200px;}
+
+/* 
+#three .box-img .content {display: flex; flex-wrap: wrap; gap: 1%;} 
+#three .box-img .content > div {width: 49%;}
+#three img {width: 100%;}
+
+@media screen and (max-width: 1024px) {
+    #three .box-img {gap: 10px;}
+    #three .box-img .content {gap: inherit;} 
+    #three .box-img .content > div {width: 100%;}
+}
+*/
+
+#three a {text-decoration: none; color: grey;}
+#four, #five {margin: 20px 0 0;}
+#four .title, #five .title {text-align: center;}
+
+/* FOOTER */
+footer {text-align: center;}
+footer .top {background:#364759; padding: 20px 0;}
+footer .bottom {background: #222f3e; padding: 40px 0;}
+
