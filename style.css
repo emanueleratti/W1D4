@@ -22,7 +22,7 @@ main  {background-color: #f0f0f0; padding: 20px; display: flex; flex-direction: 
 .title a {text-decoration: none; color: grey; margin-left: 10px;}
 #three {display: flex; gap: 30px; margin: 20px 0;}
 #three .box-img {display: flex; flex-direction: column; padding: 20px; gap: 30px; background-color: white;}
-#three .box-img .content {display: flex; flex-wrap: wrap; gap: 5px;} 
+#three .box-img .content {display: flex; flex-wrap: wrap; gap: 3px;} 
 #three img {min-width: 200px; width: 200px;}
 
 /* 
@@ -36,6 +36,9 @@ main  {background-color: #f0f0f0; padding: 20px; display: flex; flex-direction: 
     #three .box-img .content > div {width: 100%;}
 }
 */
+
+#three .box-img .content > div {position: relative;}
+.badge {width: 40px; height: 40px; background-image: url(assets/new.png); background-size: cover; position: absolute; right: 5px; bottom: 30px;}
 
 #three a {text-decoration: none; color: grey;}
 #four, #five {margin: 20px 0 0;}
